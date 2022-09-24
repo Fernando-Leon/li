@@ -1,6 +1,6 @@
 const $ = selector => document.querySelector(selector);
 
-const wrapper = $('.wrapper');
+const wrapper = $('.main-container');
 const ticket = $('.ticket');
 
 const { width, height } = wrapper.getBoundingClientRect();

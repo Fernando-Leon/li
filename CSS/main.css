@@ -1,13 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #222;
+    background-color: #FFF;
     display: grid;
-    place-content: center;
     width: 100vw;
     height: 100vh;
 
@@ -15,36 +15,78 @@ body {
 
 .main-container {
     display: grid;
-
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper {
+    justify-self: center;
+    align-self: center;
     perspective: 1000px;
+    width: 600px;
+    aspect-ratio: 16/9;
 }
 
 .ticket {
-    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.5);
     aspect-ratio: 16/9;
     width: 600px;
     border-radius: 5px;
-    border: solid 2px rgb(53, 68, 166);
     position: relative;
+    backface-visibility: hidden;
+    overflow: hidden;
 }
 
 .bg {
     position: absolute;
     top: 0;
-    background: rgba(0, 0, 0, 0.3);
-    filter: blur(20px);
+    background: rgba(0, 0, 0, 0.2);
+    filter: blur(60px);
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -2;
 }
 
-h1 {
-    color: #fff;
-    font-family: sans-serif;
+
+/* Estlos dentro de la card */
+
+h2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    opacity: .4;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 900;
+    z-index: -1;
+    text-align: center;
+    max-width: auto;
     padding: 10px;
-    opacity: .99;
+}
+
+p {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    opacity: .4;
+    color: #000000;
+    right: 0;
+    font-size: 1rem;
+    font-weight: 900;
+    z-index: -1;
+    max-width: auto;
+    padding: 10px;
+    text-align: justify;
+    padding-left: 50%;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    left: -10%;
+    z-index: -1;
+    opacity: .4;
+    width: 200px;
 }
 
