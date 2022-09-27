@@ -3,7 +3,6 @@ var $ = selector => document.querySelector(selector);
 const wrapper = $('.wrapper');
 const ticket = $('.ticket');
 
-
 //Para Escritorio
 
 const { width, height } = wrapper.getBoundingClientRect();
@@ -25,9 +24,9 @@ wrapper.addEventListener('mouseleave', () => {
 
 //Para dispositivos moviles
 
-window.addEventListener("deviceorientation",function(event) {
-    const rotationZ = Math.round(event.alpha) - 180;    
+window.addEventListener("deviceorientation",function(event) { 
     const rotationX = Math.round(event.beta) - 180;
     const rotationY = Math.round(event.gamma) -  180;
-    ticket.style.transform  = `rotateX(${rotationX}deg) rotateY(${rotationY}deg) rotateZ(${rotationZ})`;
+    ticket.style.transform  = `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`;
 }, true);
+

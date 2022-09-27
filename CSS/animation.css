@@ -1,8 +1,4 @@
-:root{
-    --topAnimation: 10%;
-}
-
-@keyframes rotation-item {
+@keyframes rotation-item {/*Rotation of girasol*/
     0%{
         transform: rotate(0deg);
     }
@@ -10,7 +6,7 @@
         transform: rotate(360deg);
     }
 }
-@keyframes pulsations {
+@keyframes pulsations {/*Pulsaciones corazon*/
      0% {
         width: 200px;
      }
@@ -18,7 +14,7 @@
         width: 220px;
      }
 }
-@keyframes pulsations-reverse {
+@keyframes pulsations-reverse {/*Pulsaciones corazon 2*/
     0% {
        transform: scale(1);
     }
@@ -26,7 +22,7 @@
        transform: scale(.8);
     }
 }
-@keyframes shake-item {
+@keyframes shake-item {/*Shake of regalo*/
     0% {
         transform: rotate(10deg);
     }
@@ -46,7 +42,7 @@
         transform: rotate(0deg);
     }
 }
-@keyframes radiance {
+@keyframes radiance {/*Radiance of cake*/
     0% {
         filter: drop-shadow(0 -20px 15px rgb(255, 130, 0));
     }
@@ -54,13 +50,7 @@
         filter: drop-shadow(0 -4px 6px rgb(255, 255, 0));
     }
 }
-.item {
-    width: 40px;
-    position: absolute;
-    filter: grayscale(100%);
-    opacity: .5;
-}
-@keyframes floating {
+@keyframes floating {/*Floting icons*/
     0% {
         opacity: 0;
     }
@@ -70,5 +60,14 @@
     100% {
         top: 2%;
         opacity: 0;
+    }
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    } 
+    100%{
+        opacity: 1;
     }
 }

@@ -8,6 +8,12 @@
     --backGirasol: linear-gradient(to bottom, #ffff00, #ffff3d, #ffff59, #ffff71, #ffff86);
     --backRegalo:  linear-gradient(to bottom, #ec7bb0, #eaa0d2, #e8c3eb, #eee2f9, #ffffff);
     --backPastel: linear-gradient(to bottom, #ff6242, #ff8298, #ffb0d8, #f7dbfa, #ffffff);
+    --topAnimation: 10%;
+    --topAnimation: 10%;
+    --topAnimation: 10%;
+    --topAnimation: 10%;
+    --topAnimation: 10%;
+    --topAnimation: 10%;
 }
 
 /*Reset styles defauls*/
@@ -26,6 +32,25 @@ body {
     position: relative;
 }
 
+/*Styles of animation icons - floating*/
+#icons-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    width: 40px;
+    position: absolute;
+    filter: grayscale(100%);
+    opacity: .5;
+}
+
+/*Styles of contenet main*/
+
 .main-container {
     display: grid;
     width: 100%;
@@ -41,7 +66,6 @@ body {
 
 .ticket {
     box-shadow: 0 0 50px 5px rgba(0, 0, 0, .4);
-    border: solid 1px #aaa;
     aspect-ratio: 16/9;
     width: 600px;
     border-radius: 10px;
@@ -115,13 +139,23 @@ body {
     width: 200px;
 }
 
-#icons-screen {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
+/*Styles of buttons - menu*/
+
+#menu-change {
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#menu-change button {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 70px;
+    border-radius: 10px;
 }
 
 #btn-1 img {
