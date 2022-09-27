@@ -26,9 +26,9 @@ wrapper.addEventListener('mouseleave', () => {
 //Para dispositivos moviles
 
 window.addEventListener("deviceorientation",function(event) {
-    const rotationZ = Math.round(event.alpha) - 180;    
-    const rotationX = Math.round(event.beta) - 180;
-    const rotationY = Math.round(event.gamma) - 180;
+    const rotationZ = Math.round(event.alpha) / 4;    
+    const rotationX = Math.round(event.beta) / 4;
+    const rotationY = Math.round(event.gamma) / 4;
     ticket.style.transform  = `rotateX(${rotationX}deg) rotateY(${rotationY}deg) rotateZ(${rotationZ})`
 
 }, true);
