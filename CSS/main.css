@@ -1,7 +1,8 @@
+/*Imports stylesheet*/
 @import url(style-menu.css);
 @import url(animation.css);
 
-
+/*Palet of colors and variables the css*/
 :root {
     --backCorazon:  linear-gradient(to bottom, #b71c1c, #ca3733, #dc4e4a, #ee6461, #ff7979);
     --backGirasol: linear-gradient(to bottom, #ffff00, #ffff3d, #ffff59, #ffff71, #ffff86);
@@ -9,6 +10,7 @@
     --backPastel: linear-gradient(to bottom, #ff6242, #ff8298, #ffb0d8, #f7dbfa, #ffffff);
 }
 
+/*Reset styles defauls*/
 * {
     margin: 0px;
     padding: 0px;
@@ -16,10 +18,12 @@
     box-sizing: border-box;
 }
 
+/*Styles principals*/
 body {
     display: grid;
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 .main-container {
@@ -45,7 +49,7 @@ body {
     backface-visibility: hidden;
     overflow: hidden;
     display: grid;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(255, 255, 255, .5);
 }
 
 .bg {
@@ -109,6 +113,15 @@ body {
     z-index: 1;
     opacity: 1;
     width: 200px;
+}
+
+#icons-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 
 #btn-1 img {

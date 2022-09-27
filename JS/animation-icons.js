@@ -1,5 +1,4 @@
-const $ = selector => document.querySelector(selector);
-const screen = $('.main-container');
+const screen = $('#icons-screen');
 const list = ['pastel', 'girasol2', 'regalo', 'corazon2'];
 
 const randomPosition = () => {
