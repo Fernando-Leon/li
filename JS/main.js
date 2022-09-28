@@ -66,8 +66,9 @@ const card3D = () => {
     //Para dispositivos moviles
 
     window.addEventListener("deviceorientation",function(event) {
-        const rotationX = Math.round(event.beta) - 180;
-        const rotationY = Math.round(event.gamma) - 180;
+        const rotationX = Math.round(event.beta);
+        const rotationY = Math.round(event.gamma);
         ticket.style.transform  = `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`;
     }, true);
+
 }
