@@ -9,7 +9,7 @@ contenido.style.display = "none";
 
 setInterval(function() {
     number += 1;
-    counter.innerHTML = number;
+    counter.innerHTML = `${number}`;
     if(number == 1 || number == 5 || number == 9 || number == 13 || number == 17){
         counterContent.style.backgroundImage = 'linear-gradient(to bottom, #ff6242, #ff8298, #ffb0d8, #f7dbfa, #ffffff)';
     }
@@ -33,9 +33,10 @@ setInterval(function() {
         srcImgCard.src = 'SVGS/pastel.svg';
         srcImgCard.style.animation =  'radiance .8s alternate-reverse infinite';
         screenMain.style.backgroundImage = 'linear-gradient(to bottom, #ff6242, #ff8298, #ffb0d8, #f7dbfa, #ffffff)';
+        button1.setAttribute('class', 'selected');
     }
 
-}, 100);
+}, 1000);
 
 
 const card3D = () => {

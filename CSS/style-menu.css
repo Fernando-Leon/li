@@ -17,8 +17,13 @@
     transition: .5s;
 }
 
+.selected {
+    transform: scale(.8) !important;
+    background-color: transparent !important;
+}
+
 #menu-change button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: transparent;
     transform: scale(.8);
 }
 

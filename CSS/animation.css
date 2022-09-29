@@ -69,6 +69,7 @@
     }
 }
 @keyframes animationIital {
+
     0%{
         transform: rotate(0deg);
         border-radius: 10%;

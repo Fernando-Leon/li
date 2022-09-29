@@ -34,7 +34,7 @@ body {
     height: 100vh;
     display: grid;
     place-content: center;
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 
 #counter-content {
@@ -42,7 +42,7 @@ body {
     height: 200px;
     display: grid;
     place-content: center;
-    animation: animationIital .5s linear infinite;
+    animation: animationIital 1s linear infinite;
     border-radius: 500px;
 }
 
@@ -50,6 +50,7 @@ body {
     font-size: 30px;
     position: absolute;
     justify-self: center;
+    color: #FFF;
     align-self: center;
 }
 
@@ -132,11 +133,11 @@ body {
     color: #000000;
     right: 0;
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 600;
     z-index: 1;
     max-width: auto;
     padding: 10px;
-    text-align: justify;
+    text-align: center;
 }
 
 #footer-card {
@@ -149,6 +150,9 @@ body {
     opacity: .8;
     color: #000;
     z-index: 1;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
 }
 
 #img-card {

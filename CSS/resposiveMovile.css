@@ -1,14 +1,14 @@
 /*
-Samsung S20 ultra
-
+Redmi note 8
 */
+
 @media  (max-width: 450px) {
     #counter-content {
-        width: 160px !important;
-        height: 160px !important;
+        width: 140px !important;
+        height: 140px !important;
     }
     #counter {
-        font-size: 30px !important;
+        font-size: 27px !important;
     }
 
     .wrapper {
