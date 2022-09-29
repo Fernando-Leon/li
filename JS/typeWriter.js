@@ -17,5 +17,3 @@ function dataId(id, speeded){
     }
     setTimeout(typeWrite, speed);
 }
-
-dataId("title", spt);

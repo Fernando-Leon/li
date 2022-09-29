@@ -27,15 +27,15 @@ setInterval(function() {
         index.style.zIndex = '-100';
         contenido.style.display = "grid";
         card3D();
-        title.innerHTML = "Tirulo de carta 1";
-        text.innerHTML = "Texto 1";
-        foodCard.innerHTML = "Pie Pagina 1";
+        title.innerHTML = listTitles[0];
+        text.innerHTML = listText[0];
+        foodCard.innerHTML = listFood[0];
         srcImgCard.src = 'SVGS/pastel.svg';
         srcImgCard.style.animation =  'radiance .8s alternate-reverse infinite';
         screenMain.style.backgroundImage = 'linear-gradient(to bottom, #ff6242, #ff8298, #ffb0d8, #f7dbfa, #ffffff)';
     }
 
-}, 500);
+}, 100);
 
 
 const card3D = () => {

@@ -1,0 +1,50 @@
+/*
+Samsung S20 ultra
+
+*/
+@media  (max-width: 450px) {
+    #counter-content {
+        width: 160px !important;
+        height: 160px !important;
+    }
+    #counter {
+        font-size: 30px !important;
+    }
+
+    .wrapper {
+        width: 75% !important;
+    }
+    
+    .ticket {
+        aspect-ratio: 5/8 !important;
+        width: 100% !important;
+    }
+
+    #title {
+        opacity: .8 !important;
+        font-size: 2rem !important;
+        font-weight: 600 !important;
+        letter-spacing: 1px !important;
+        font-style: bold !important;
+    }
+    
+    #frase {
+        opacity: .8 !important;
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+        font-style: bold !important;
+        width: 80% !important;
+    }
+    
+    #footer-card {
+        opacity: .8;
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+    }
+
+    #img-card {
+        left: -20% !important;
+        width: 60% !important;
+    }
+
+}

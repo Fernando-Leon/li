@@ -7,11 +7,21 @@
 }
 
 #menu-change button {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     outline: none;
     border: none;
     width: 70px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
 }
 
+#menu-change button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(.8);
+}
+
+#menu-change button:focus {
+    background-color: transparent;
+}
