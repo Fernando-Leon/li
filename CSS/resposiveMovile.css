@@ -1,5 +1,12 @@
 /*
-Redmi note 8
+Response 6.8" Movile to botton
+
+Google Chrome
+Safari
+Opera
+Brave
+
+
 */
 
 @media  (max-width: 450px) {
@@ -7,13 +14,8 @@ Redmi note 8
         width: 140px !important;
         height: 140px !important;
     }
-    #counter {
-        font-size: 27px !important;
-    }
-
-    .wrapper {
-        width: 75% !important;
-    }
+    #counter { font-size: 27px !important; }
+    .wrapper { width: 75% !important; }
     
     .ticket {
         aspect-ratio: 5/8 !important;
@@ -46,5 +48,4 @@ Redmi note 8
         left: -20% !important;
         width: 60% !important;
     }
-
 }

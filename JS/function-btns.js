@@ -1,10 +1,7 @@
 const screenMain = document.body;
 var listTitles = ["¡FELIZ CUMPLEAÑOS INDRA!", "¡FELICES 18 PRIMAVERAS!", "¡PIDE UN DESEO!", "GRACIAS BONITA"];
-var listText = ["Disfruta de tu día bonita, te deseo que todas tus metas se hagan realidad, que nunca te falte la salud ni a las personas que más amas, pero sobre todo que seas lo más feliz posible en esta vida.",
-                "18 años,<br>216 meses,<br>864 semanas,<br>6,574 días,<br>157,785 horas,<br>9,467,086 minutos,<br>568,025,136 segundos.",
-                "Cierra tus ojos, piensa en algo que deses cumplir, imaginalo, pide tu deseo y hazmelo saber.", 
-                "Te quiero mucho Indra &#128149 de verdad. Gracias por ser mi compañera por casi 12 años, como me gustaria tener una foto contigo desde el kinder hasta la universidad. Recueda que si algun día me llegas a necesitar buscame ahi estare, no te imaginas lo mucho que me importas y  deseo lo  mejor para ti."];
-var listFood = ["¡Feliz dia Li!", "Gracias por existir", "Yo te lo cumpliré", "Te llevo en mi corazon"];
+var listText = ["Disfruta de tu día bonita, te deseo que todas tus metas se hagan realidad, que nunca te falte la salud ni a las personas que más amas, pero sobre todo que seas lo más feliz posible en esta vida.", "18 años, <br>216 meses,<br>864 semanas,<br>6,574 días,<br>157,785 horas,<br>9,467,086 minutos,<br>568,025,136 segundos.", "Cierra tus ojos, piensa en algo que deses cumplir, imagínalo, pide tu deseo y házmelo saber.", "Te quiero mucho Indra &#128149 de verdad. Gracias por ser mi compañera por casi 12 años, como me gustaría tener una foto contigo desde el kínder hasta la universidad. Recuerda que si algún día me llegas a necesitar búscame ahí estaré, no te imaginas lo mucho que me importas y deseo lo mejor para ti."];
+var listFood = ["¡Feliz día Li!", "Gracias por existir", "Yo te lo cumpliré", "Te llevo en mi corazón"];
 const card = $('.wrapper')
 
 var button1 = $("#btn-1");

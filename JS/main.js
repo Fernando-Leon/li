@@ -35,17 +35,13 @@ setInterval(function() {
         screenMain.style.backgroundImage = 'linear-gradient(to bottom, #ff6242, #ff8298, #ffb0d8, #f7dbfa, #ffffff)';
         button1.setAttribute('class', 'selected');
     }
-
 }, 1000);
-
 
 const card3D = () => {
     const wrapper = $('.wrapper');
     const ticket = $('.ticket');
 
-
     //Para Escritorio
-
     const { width, height } = wrapper.getBoundingClientRect();
     const halfWidth = width / 2;
     const halfHeight = height / 2;
@@ -65,11 +61,9 @@ const card3D = () => {
     })
 
     //Para dispositivos moviles
-
     window.addEventListener("deviceorientation",function(event) {
         const rotationX = Math.round(event.beta);
         const rotationY = Math.round(event.gamma);
         ticket.style.transform  = `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`;
     }, true);
-
 }
